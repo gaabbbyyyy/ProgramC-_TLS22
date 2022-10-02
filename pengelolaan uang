@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int pemasukkan, kebutuhan, keinginan, kebaikan, tabungan;
+    cout<<"Masukkan jumlah uang bulanan: Rp ";
+    cin>>pemasukkan;
+    kebutuhan=pemasukkan*0.5;
+    keinginan=pemasukkan*0.2;
+    kebaikan=pemasukkan*0.1;
+    tabungan=pemasukkan*0.2;
+    cout<<"Kebutuhan: Rp "<<kebutuhan<<endl;
+    cout<<"Keinginan: Rp "<<keinginan<<endl;
+    cout<<"Tabungan: Rp "<<tabungan<<endl;
+    cout<<"Kebaikan: Rp "<<kebaikan;
+
+    return 0;
+}
